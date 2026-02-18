@@ -88,7 +88,7 @@ const Footer = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-5">
               <div className="bg-[#d43939]/50 backdrop-blur-sm p-4 ">
-                <p className="text-xs text-gray-100 mb-1">{recentArticle.date}</p>
+                <p className="text-xs text-white font-bold mb-1">{recentArticle.date}</p>
                 <h3 className="text-lg font-bold text-white mb-1 line-clamp-2">
                   {recentArticle.title}
                 </h3>
@@ -132,7 +132,7 @@ const Footer = () => {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">
               Subscribe to Our Newsletter
             </h2>
-            <p className="text-white/90 text-lg mb-8">
+            <p className="text-white/200 text-lg mb-8">
               No worries, we don't like spam either.
             </p>
 
