@@ -153,7 +153,7 @@ export default function HeroSlider() {
       aria-label="Featured articles carousel"
     >
       {/* Background Image */}
-      <div className="relative w-full h-[380px] sm:h-[480px] md:h-[580px] lg:h-[550px]">
+      <div className="relative w-full h-[380px] sm:h-[480px] md:h-[550px] lg:h-[550px]">
         <Image
           src={currentItem.image}
           alt={currentItem.alt || currentItem.heading}
